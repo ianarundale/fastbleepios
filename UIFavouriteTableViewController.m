@@ -36,6 +36,11 @@ FastbleepDatabaseController *databaseController;
 
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.tableView reloadData];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -121,6 +126,8 @@ FastbleepDatabaseController *databaseController;
         articleViewController.articleId = chosenArticle.id;
         articleViewController.article = chosenArticle;
     }
+    
+    [self.tableView reloadData];
 
 }
 

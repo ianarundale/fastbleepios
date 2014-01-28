@@ -65,6 +65,10 @@
         articleViewController.articleId = chosenArticle.id;
         articleViewController.article = chosenArticle;
     }
+    
+    if([segue.identifier isEqualToString:@"ViewFastbleepArticleSegue"]){
+        
+    }
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView
