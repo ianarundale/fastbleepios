@@ -78,7 +78,7 @@ Application made by Ian Arundale</string>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3615" y="-1013"/>
+            <point key="canvasLocation" x="2335" y="-61"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Jci-dY-WYh">
@@ -277,7 +277,7 @@ Application made by Ian Arundale</string>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1516" y="-1637"/>
+            <point key="canvasLocation" x="1444" y="-629"/>
         </scene>
         <!--Navigation Controller - Medical Notes-->
         <scene sceneID="uOM-n4-m2T">
