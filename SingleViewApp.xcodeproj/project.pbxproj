@@ -46,6 +46,8 @@
 		3C5723B11898370D00761CD1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5723B01898370D00761CD1 /* SystemConfiguration.framework */; };
 		3C5723B31898390A00761CD1 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5723B21898390A00761CD1 /* GoogleMaps.framework */; };
 		3C5723B5189839CC00761CD1 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C5723B4189839CC00761CD1 /* GoogleMaps.bundle */; };
+		3C5723B818984CE100761CD1 /* PlacesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5723B718984CE100761CD1 /* PlacesModel.m */; };
+		3C5723BB18984D5E00761CD1 /* PlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5723BA18984D5E00761CD1 /* PlacesController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,20 +85,20 @@
 		3C572376189598B800761CD1 /* UIArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIArticleViewController.m; sourceTree = "<group>"; };
 		3C5723781895B00100761CD1 /* FastbleepAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastbleepAPI.h; sourceTree = "<group>"; };
 		3C5723791895B00100761CD1 /* FastbleepAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastbleepAPI.m; sourceTree = "<group>"; };
-		3C57237E1895C58F00761CD1 /* UIFastbleepMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFastbleepMenuTableViewController.h; sourceTree = "<group>"; };
-		3C57237F1895C58F00761CD1 /* UIFastbleepMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFastbleepMenuTableViewController.m; sourceTree = "<group>"; };
-		3C5723811895CFAA00761CD1 /* FastbleepArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastbleepArticle.h; sourceTree = "<group>"; };
-		3C5723821895CFAA00761CD1 /* FastbleepArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastbleepArticle.m; sourceTree = "<group>"; };
-		3C5723841896E5EB00761CD1 /* UILocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILocationViewController.h; sourceTree = "<group>"; };
-		3C5723851896E5EB00761CD1 /* UILocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILocationViewController.m; sourceTree = "<group>"; };
-		3C57238A1896E99300761CD1 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
-		3C57238B1896E99300761CD1 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
+		3C57237E1895C58F00761CD1 /* UIFastbleepMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIFastbleepMenuTableViewController.h; path = ../UIFastbleepMenuTableViewController.h; sourceTree = "<group>"; };
+		3C57237F1895C58F00761CD1 /* UIFastbleepMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIFastbleepMenuTableViewController.m; path = ../UIFastbleepMenuTableViewController.m; sourceTree = "<group>"; };
+		3C5723811895CFAA00761CD1 /* FastbleepArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FastbleepArticle.h; path = ../FastbleepArticle.h; sourceTree = "<group>"; };
+		3C5723821895CFAA00761CD1 /* FastbleepArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FastbleepArticle.m; path = ../FastbleepArticle.m; sourceTree = "<group>"; };
+		3C5723841896E5EB00761CD1 /* UILocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILocationViewController.h; path = ../UILocationViewController.h; sourceTree = "<group>"; };
+		3C5723851896E5EB00761CD1 /* UILocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILocationViewController.m; path = ../UILocationViewController.m; sourceTree = "<group>"; };
+		3C57238A1896E99300761CD1 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCLController.h; path = ../MyCLController.h; sourceTree = "<group>"; };
+		3C57238B1896E99300761CD1 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCLController.m; path = ../MyCLController.m; sourceTree = "<group>"; };
 		3C57238D18970E3100761CD1 /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
 		3C57238E18970E3100761CD1 /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
 		3C5723901897153A00761CD1 /* FastbleepDatabaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastbleepDatabaseController.h; sourceTree = "<group>"; };
 		3C5723911897153A00761CD1 /* FastbleepDatabaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastbleepDatabaseController.m; sourceTree = "<group>"; };
-		3C572393189718B700761CD1 /* UIFavouriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFavouriteTableViewController.h; sourceTree = "<group>"; };
-		3C572394189718B700761CD1 /* UIFavouriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFavouriteTableViewController.m; sourceTree = "<group>"; };
+		3C572393189718B700761CD1 /* UIFavouriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIFavouriteTableViewController.h; path = ../UIFavouriteTableViewController.h; sourceTree = "<group>"; };
+		3C572394189718B700761CD1 /* UIFavouriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIFavouriteTableViewController.m; path = ../UIFavouriteTableViewController.m; sourceTree = "<group>"; };
 		3C57239618971AE800761CD1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		3C57239A189836A000761CD1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3C57239C189836A800761CD1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,10 @@
 		3C5723B01898370D00761CD1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3C5723B21898390A00761CD1 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		3C5723B4189839CC00761CD1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		3C5723B618984CE100761CD1 /* PlacesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesModel.h; path = ../PlacesModel.h; sourceTree = "<group>"; };
+		3C5723B718984CE100761CD1 /* PlacesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesModel.m; path = ../PlacesModel.m; sourceTree = "<group>"; };
+		3C5723B918984D5E00761CD1 /* PlacesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesController.h; path = ../PlacesController.h; sourceTree = "<group>"; };
+		3C5723BA18984D5E00761CD1 /* PlacesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesController.m; path = ../PlacesController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,16 +161,6 @@
 		3C5722E4189565F800761CD1 = {
 			isa = PBXGroup;
 			children = (
-				3C57238A1896E99300761CD1 /* MyCLController.h */,
-				3C57238B1896E99300761CD1 /* MyCLController.m */,
-				3C5723841896E5EB00761CD1 /* UILocationViewController.h */,
-				3C5723851896E5EB00761CD1 /* UILocationViewController.m */,
-				3C5723811895CFAA00761CD1 /* FastbleepArticle.h */,
-				3C572393189718B700761CD1 /* UIFavouriteTableViewController.h */,
-				3C572394189718B700761CD1 /* UIFavouriteTableViewController.m */,
-				3C5723821895CFAA00761CD1 /* FastbleepArticle.m */,
-				3C57237E1895C58F00761CD1 /* UIFastbleepMenuTableViewController.h */,
-				3C57237F1895C58F00761CD1 /* UIFastbleepMenuTableViewController.m */,
 				3C5722F6189565F800761CD1 /* SingleViewApp */,
 				3C572318189565F800761CD1 /* SingleViewAppTests */,
 				3C5722EF189565F800761CD1 /* Frameworks */,
@@ -210,6 +206,20 @@
 		3C5722F6189565F800761CD1 /* SingleViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				3C57238A1896E99300761CD1 /* MyCLController.h */,
+				3C57238B1896E99300761CD1 /* MyCLController.m */,
+				3C5723841896E5EB00761CD1 /* UILocationViewController.h */,
+				3C5723851896E5EB00761CD1 /* UILocationViewController.m */,
+				3C5723B618984CE100761CD1 /* PlacesModel.h */,
+				3C5723B718984CE100761CD1 /* PlacesModel.m */,
+				3C5723B918984D5E00761CD1 /* PlacesController.h */,
+				3C5723BA18984D5E00761CD1 /* PlacesController.m */,
+				3C5723811895CFAA00761CD1 /* FastbleepArticle.h */,
+				3C5723821895CFAA00761CD1 /* FastbleepArticle.m */,
+				3C572393189718B700761CD1 /* UIFavouriteTableViewController.h */,
+				3C572394189718B700761CD1 /* UIFavouriteTableViewController.m */,
+				3C57237E1895C58F00761CD1 /* UIFastbleepMenuTableViewController.h */,
+				3C57237F1895C58F00761CD1 /* UIFastbleepMenuTableViewController.m */,
 				3C5722FF189565F800761CD1 /* AppDelegate.h */,
 				3C572300189565F800761CD1 /* AppDelegate.m */,
 				3C572302189565F800761CD1 /* Main_iPhone.storyboard */,
@@ -358,6 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5723B818984CE100761CD1 /* PlacesModel.m in Sources */,
+				3C5723BB18984D5E00761CD1 /* PlacesController.m in Sources */,
 				3C57238F18970E3100761CD1 /* SimpleViewController.m in Sources */,
 				3C57230A189565F800761CD1 /* ViewController.m in Sources */,
 				3C572301189565F800761CD1 /* AppDelegate.m in Sources */,

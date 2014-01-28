@@ -10,6 +10,7 @@
 #import "MyCLController.h"
 #import <CoreLocation/CoreLocation.h>
 #import <GoogleMaps/GoogleMaps.h>
+#import "PlacesController.h"
 
 
 @interface UILocationViewController : UIViewController
@@ -18,11 +19,9 @@
 @property (weak, nonatomic) IBOutlet UIWebView *myWebView;
 
 @property (strong, nonatomic) CLLocationManager *locationManager;
-@property (strong, nonatomic) IBOutlet UILabel *latitude;
+@property double *latitude;
+@property double *longitude;
 
-@property (strong, nonatomic) IBOutlet UILabel *longitude;
-
-@property (strong, nonatomic) IBOutlet UILabel *altitude;
 
 
 @end
